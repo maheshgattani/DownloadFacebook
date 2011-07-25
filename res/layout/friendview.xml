@@ -1,0 +1,40 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#020001"
+    android:padding="6dip">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="5"
+		    android:background="@drawable/darkrose31000"
+            android:id="@+id/first1">
+
+		<Gallery xmlns:android="http://schemas.android.com/apk/res/android" 
+		    android:id="@+id/gallery"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center" >
+		</Gallery>
+            		
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+		    android:orientation="horizontal"
+		    android:layout_weight="7"
+		    android:id="@+id/first4"
+            >
+        <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/list_friends"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#020001"
+		    android:padding="10dp"
+		    android:textSize="16sp" />
+	</LinearLayout>
+	
+</LinearLayout>
