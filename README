@@ -1,6 +1,8 @@
-This is an example of android app using Facebook SDK
-This app lets you view your and your friends albums.
-You need Facbook SDK to use this code.
+This is an example of android app using Facebook and DropBox SDK
+This app lets you view your and your friends albums and upload the to DropBox with just one tap.
+You need Facbook and DropBox SDK to use this code.
+
+The checked in code only includes the photo viewing part. For the rest, please contact me.
 
 Feel free to use it. Just give due credits.
 Thanks for the help to sleves app developers and to the code provided by google.
